@@ -1,3 +1,3 @@
-= Old West Durham Neighborhood Association
+# Old West Durham Neighborhood Association
 
 
