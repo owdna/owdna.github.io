@@ -1,0 +1,16 @@
+.topnav {
+  background-color: #262625;
+  color: #fff;
+}
+.topnav .nav { display: inline-block; margin: 10px auto; }
+
+.owd-hero { 
+  background-image: url('images/grunge-hero.jpg'); 
+  background-position: center;
+  background-size: 100%;
+  padding: 50px 0px;
+}
+
+.hero-image { clear:both; }
+.hero-header { font-size: 5em; line-height: 2em; color: #f6f6ef; }
+.hero-subheader { font-size: 2em; line-height: 2em; color: #e2a625; }
