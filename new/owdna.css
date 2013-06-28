@@ -1,3 +1,9 @@
+body,html { background-color: #f6f6ef; }
+
+a { color: #dd9716; }
+
+.nav-pills > .active > a { background-color: #444; }
+
 .topnav {
   background-color: #262625;
   color: #fff;
@@ -11,6 +17,79 @@
   padding: 50px 0px;
 }
 
-.hero-image { clear:both; }
-.hero-header { font-size: 5em; line-height: 2em; color: #f6f6ef; }
-.hero-subheader { font-size: 2em; line-height: 2em; color: #e2a625; }
+.hero-image { clear:both; max-height: 140px; margin-top: 30px; }
+.hero-header { 
+  font-family: 'Acme', cursive;
+  font-size: 5em; 
+  line-height: 1em;
+  color: #ededd8;
+  text-shadow: 2px 2px 5px rgba(25,25,25,.5); 
+}
+.hero-subheader { 
+  font-size: 2em; 
+  line-height: 2em; 
+  color: #e2a432;
+}
+.hero-hr {
+  color:#555;
+  background-color:#555;
+  border-top: solid 1px #222;
+  height: 1px;
+  width: 300px;
+  display: inline-block;
+}
+.hero-desc { color: #ededd8; margin-top: 10px; }
+.hero-address { color: #e2a432; }
+
+a.orange-link { color: #DD9716 }
+a.btn-orange { 
+  background-color: #ea2;
+  background-image: -moz-linear-gradient(top, #ea2, #dd9716);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ea2), to(#dd9716));
+  background-image: -webkit-linear-gradient(top, #ea2, #dd9716);
+  background-image: -o-linear-gradient(top, #ea2, #dd9716);
+  background-image: linear-gradient(to bottom, #ea2, #dd9716);
+  background-repeat: repeat-x;
+}
+
+/* CONTACT SECTION */
+
+.contact-section {
+  background: url('images/contact-bg.jpg') repeat 0 0;
+  padding: 30px;
+}
+
+.contact-header {
+  font-family: 'Acme', cursive;
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+
+.facebook-icon {
+  background: transparent url('images/social-sprite.png') no-repeat 0 0;
+  background-size: 150px 96px;
+  height: 48px;
+  width: 50px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.twitter-icon {
+  background: transparent url('images/social-sprite.png') no-repeat 0 0;
+  background-size: 150px 96px;
+  height: 48px;
+  width: 50px;
+  display: inline-block;
+  white-space: nowrap;
+  background-position: -50px 0;
+}
+
+/* FOOTER */
+
+.footer {
+  background-image: url('images/grunge-hero.jpg');
+  background-position: center;
+  background-size: 100%;
+  color: #777;
+  padding: 10px;
+}
