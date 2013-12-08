@@ -10,8 +10,18 @@ a { color: #dd9716; }
 }
 .topnav .nav { display: inline-block; margin: 10px auto; }
 
+.topnav-oak { max-height: 60px; }
+.topnav-owd { 
+  display: inline-block; 
+  font-family: 
+  'Acme'; 
+  font-size: 24px; 
+  line-height: 70px;
+  color: #ededd8; 
+}
+
 .owd-hero { 
-  background-image: url('images/grunge-hero.jpg'); 
+  background-image: url('/images/grunge-hero.jpg'); 
   background-position: center;
   background-size: 100%;
   padding: 50px 0px;
@@ -55,7 +65,7 @@ a.btn-orange {
 /* CONTACT SECTION */
 
 .contact-section {
-  background: url('images/contact-bg.jpg') repeat 0 0;
+  background: url('/images/contact-bg.jpg') repeat 0 0;
   padding: 30px;
 }
 
@@ -67,7 +77,7 @@ a.btn-orange {
 }
 
 .facebook-icon {
-  background: transparent url('images/social-sprite.png') no-repeat 0 0;
+  background: transparent url('/images/social-sprite.png') no-repeat 0 0;
   background-size: 150px 96px;
   height: 48px;
   width: 50px;
@@ -75,7 +85,7 @@ a.btn-orange {
   white-space: nowrap;
 }
 .twitter-icon {
-  background: transparent url('images/social-sprite.png') no-repeat 0 0;
+  background: transparent url('/images/social-sprite.png') no-repeat 0 0;
   background-size: 150px 96px;
   height: 48px;
   width: 50px;
@@ -87,7 +97,7 @@ a.btn-orange {
 /* FOOTER */
 
 .footer {
-  background-image: url('images/grunge-hero.jpg');
+  background-image: url('/images/grunge-hero.jpg');
   background-position: center;
   background-size: 100%;
   color: #777;
