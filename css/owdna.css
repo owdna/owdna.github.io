@@ -1,8 +1,14 @@
-body,html { background-color: #f6f6ef; }
+body,html { background-color: #f6f6ef; height: 100%; padding: 0; margin: 0; }
 
 a { color: #dd9716; }
 
 .nav-pills > .active > a { background-color: #444; }
+
+.owdna-wrapper {
+  min-height: 100%;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
+}
 
 .topnav {
   background-color: #262625;
@@ -53,6 +59,7 @@ a { color: #dd9716; }
 
 a.orange-link { color: #DD9716 }
 a.btn-orange { 
+  color: #444;
   background-color: #ea2;
   background-image: -moz-linear-gradient(top, #ea2, #dd9716);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ea2), to(#dd9716));
@@ -93,6 +100,20 @@ a.btn-orange {
   white-space: nowrap;
   background-position: -50px 0;
 }
+
+.npo-section {
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+.npo-section p {
+  font-size: 20px;
+}
+
+.owdna-p {
+  font-size: 18px;
+}
+
 
 /* FOOTER */
 

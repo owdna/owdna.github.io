@@ -13,29 +13,33 @@
     <link href="/css/owdna.css" rel="stylesheet" media="screen" />
   </head>
   <body>
-    <div class="topnav">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-left">
-            <a href="/">
-              <img src="/images/oak1.png" class="topnav-oak" />
-              <div class="topnav-owd">Old West Durham</div>
-            </a>
-          </div>
-          <div class="col-md-6 text-right">
-            <ul class="nav nav-pills">
-              <li class="{% if page.active_nav_link == 'home' %}active{% endif %}"><a href="/">Home</a></li>
-              <li class="{% if page.active_nav_link == 'history' %}active{% endif %}"><a href="/history/">History</a></li>
-              <li class="{% if page.active_nav_link == 'living' %}active{% endif %}"><a href="/living/">Living Here</a></li>
-              <li class="{% if page.active_nav_link == 'playing' %}active{% endif %}"><a href="/playing/">Playing Here</a></li>                
-            </ul>
+    <div class="owdna-wrapper">
+      
+      <div class="topnav">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-left">
+              <a href="/">
+                <img src="/images/oak1.png" class="topnav-oak" />
+                <div class="topnav-owd">Old West Durham</div>
+              </a>
+            </div>
+            <div class="col-md-6 text-right">
+              <ul class="nav nav-pills">
+                <li class="{% if page.active_nav_link == 'home' %}active{% endif %}"><a href="/">Home</a></li>
+                <li class="{% if page.active_nav_link == 'history' %}active{% endif %}"><a href="/history/">History</a></li>
+                <li class="{% if page.active_nav_link == 'living' %}active{% endif %}"><a href="/living/">Living Here</a></li>
+                <li class="{% if page.active_nav_link == 'playing' %}active{% endif %}"><a href="/playing/">Playing Here</a></li>                
+              </ul>
+            </div>
           </div>
         </div>
       </div>
+    
+      {{content}}
+    
     </div>
     
-    {{content}}
-
     <div class="footer text-center">
       Copyright &copy; 2013 Old West Durham Neighborhood Association.  All rights reserved.<br />
       <a href="/old/">Legacy Old West Durham Site</a>
