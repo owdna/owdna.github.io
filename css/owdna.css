@@ -124,3 +124,10 @@ a.btn-orange {
   color: #777;
   padding: 10px;
 }
+
+
+.history-image {
+  border: solid 1px #555;
+  box-shadow: 2px 2px 2px;
+  max-width: 100%;
+}
