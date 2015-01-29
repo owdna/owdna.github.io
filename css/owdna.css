@@ -8,15 +8,15 @@ a { color: #dd9716; }
 
 .owdna-wrapper {
   min-height: 100%;
-  margin: 0 auto -60px;
-  padding: 0 0 60px;
+  margin: 0 auto -143px;
+  padding: 0 0 143px;
 }
 
 .topnav {
   background-color: #262625;
   color: #fff;
 }
-.topnav .nav { display: inline-block; margin: 10px auto; }
+.topnav .nav { display: inline-block; margin: 10px auto; margin-top: 15px; }
 
 .topnav-oak { max-height: 60px; }
 .topnav-owd { 
@@ -133,3 +133,40 @@ a.btn-orange {
   box-shadow: 2px 2px 2px;
   max-width: 100%;
 }
+
+
+/* ... */
+
+#pic-chron-outer {  
+  border: solid 1px #000;
+  background-color: #333;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 2px 2px 2px rgba(25, 25, 25, 0.5);
+}
+
+#pic-chron-outer .arrow {
+  font-size: 300%;
+  text-decoration: none;
+}
+
+#chron-img {
+  margin: 20px;
+  border-radius: 15px;
+}
+
+#chron-caption {
+  padding: 10px;
+  width: 75%;
+  margin: 10px auto;
+  color: #ccc;
+}
+
+#chron-year {
+  font-size: 200%;
+  padding: 10px;
+  font-weight: bold;
+}
+

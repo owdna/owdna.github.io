@@ -1,0 +1,24 @@
+---
+layout: main
+active_nav_link: history
+---
+
+<div id="pic-chron-outer" ng-app="chron">
+  <div ng-controller="ChronCtrl">
+
+    <div id="chron-year">
+      {[{images[currIndex].year}]}
+    </div>
+
+    <a href="#" class="fa fa-arrow-circle-left arrow" ng-click="previous()" ng-hide="currIndex == 0"></a>
+    <img id="chron-img" ng-src="{[{'/old/graphics/History/' + images[currIndex].href}]}" />
+    <a href="#" class="fa fa-arrow-circle-right arrow" ng-click="next()" ng-hide="currIndex == images.length-1"></a>
+
+    <div id="chron-caption">{[{images[currIndex].caption}]}</div>
+  </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.js"></script>
+<script src="/history/chronology/app.js"></script>
+
