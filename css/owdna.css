@@ -170,3 +170,22 @@ a.btn-orange {
   font-weight: bold;
 }
 
+.imagebox {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.imagebox img {
+  border: solid 1px #555;
+  box-shadow: 2px 2px 2px;
+  max-width: 100%;
+}
+
+.imagebox p {
+  display: block;
+  font-size: 90%;
+  margin: 2px auto;
+  max-width: 70%;
+}
+
+.timetable td { padding: 5px; }
