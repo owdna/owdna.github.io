@@ -8,8 +8,8 @@ a { color: #dd9716; }
 
 .owdna-wrapper {
   min-height: 100%;
-  margin: 0 auto -143px;
-  padding: 0 0 143px;
+  margin: 0 auto -113px;
+  padding: 0 0 113px;
 }
 
 .topnav {
@@ -19,33 +19,33 @@ a { color: #dd9716; }
 .topnav .nav { display: inline-block; margin: 10px auto; margin-top: 15px; }
 
 .topnav-oak { max-height: 60px; }
-.topnav-owd { 
-  display: inline-block; 
-  font-family: 
-  'Acme'; 
-  font-size: 24px; 
+.topnav-owd {
+  display: inline-block;
+  font-family:
+  'Acme';
+  font-size: 24px;
   line-height: 70px;
-  color: #ededd8; 
+  color: #ededd8;
 }
 
-.owd-hero { 
-  background-image: url('/images/grunge-hero.jpg'); 
+.owd-hero {
+  background-image: url('/images/grunge-hero.jpg');
   background-position: center;
   background-size: 100%;
   padding: 50px 0px;
 }
 
 .hero-image { clear:both; max-height: 140px; margin-top: 30px; }
-.hero-header { 
+.hero-header {
   font-family: 'Acme', cursive;
-  font-size: 5em; 
+  font-size: 5em;
   line-height: 1em;
   color: #ededd8;
-  text-shadow: 2px 2px 5px rgba(25,25,25,.5); 
+  text-shadow: 2px 2px 5px rgba(25,25,25,.5);
 }
-.hero-subheader { 
-  font-size: 2em; 
-  line-height: 2em; 
+.hero-subheader {
+  font-size: 2em;
+  line-height: 2em;
   color: #e2a432;
 }
 .hero-hr {
@@ -60,7 +60,7 @@ a { color: #dd9716; }
 .hero-address { color: #e2a432; }
 
 a.orange-link { color: #DD9716 }
-a.btn-orange { 
+a.btn-orange {
   color: #444;
   background-color: #ea2;
   background-image: -moz-linear-gradient(top, #ea2, #dd9716);
@@ -137,7 +137,7 @@ a.btn-orange {
 
 /* ... */
 
-#pic-chron-outer {  
+#pic-chron-outer {
   border: solid 1px #000;
   background-color: #333;
   width: 100%;
