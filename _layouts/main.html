@@ -3,13 +3,13 @@
   <head>
     <title>Old West Durham</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    
+
     <link href="//fonts.googleapis.com/css?family=Averia+Libre" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet" type="text/css">
     <link href="//fonts.googleapis.com/css?family=Acme" rel="stylesheet" type="text/css">
-    
+
     <link href="/css/owdna.css" rel="stylesheet" media="screen" />
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="owdna-wrapper">
-      
+
       <div class="topnav">
         <div class="container">
           <div class="row">
@@ -32,20 +32,19 @@
                 <li class="{% if page.active_nav_link == 'home' %}active{% endif %}"><a href="/">Home</a></li>
                 <li class="{% if page.active_nav_link == 'history' %}active{% endif %}"><a href="/history/">History</a></li>
                 <li class="{% if page.active_nav_link == 'living' %}active{% endif %}"><a href="/living/">Living Here</a></li>
-                <li class="{% if page.active_nav_link == 'playing' %}active{% endif %}"><a href="/playing/">Playing Here</a></li>                
+                <li class="{% if page.active_nav_link == 'playing' %}active{% endif %}"><a href="/playing/">Playing Here</a></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-    
+
       {{content}}
-    
+
     </div>
-    
+
     <div class="footer text-center">
       Copyright &copy; 2015 Old West Durham Neighborhood Association.  All rights reserved.<br />
-      <p><a href="/old/">Legacy Old West Durham Site</a></p>
       <p>Our site is open source!</p>
         <a href="https://github.com/kaizenpack/owdna" class="btn btn-orange btn-large" target="_blank">
           <img src="/images/Octocat.png" style="max-width:20px;" />
