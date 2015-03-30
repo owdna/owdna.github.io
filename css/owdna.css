@@ -189,3 +189,19 @@ a.btn-orange {
 }
 
 .timetable td { padding: 5px; }
+
+.quot {
+	padding: 30px;
+	color: #dd9716;
+	font-size: 200%;
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	margin: 20px;
+	font-style: italic;
+}
+.quot .attr {
+	font-size: 50%;
+	color: #444;
+	text-align: right;
+	font-style: italic;
+}
