@@ -18,7 +18,7 @@ the changes, they will be merged and deployed.
 ## Environment
 
 This site is hosted on AWS S3.  To deploy, you will need an ACCESS_KEY_ID and 
-SECRET_ACCESS_KEY for AWS. The webmaster (currently @kaizenpack) should be 
+SECRET_ACCESS_KEY for AWS. The webmaster (currently @JohnPKilleen) should be 
 able to generate and provide these keys to you.  Export these values to your
 environment as OWDNA_ACCESS_KEY_ID and OWDNA_SECRET_ACCESS_KEY and then run
 
