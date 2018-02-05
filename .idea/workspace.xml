@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1d9bfb2-e3fe-498a-805d-dfdedd173dd2" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRAFT_NPO_Ordinance_10_24_17.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/DRAFT_NPO_Ordinance_1_10_2018.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Draft_NPO_Ordinance_1_23_18.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Explanation_of_Changes_to_the_Draft_NPO_1_11.pdf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Explanation_of_Changes_to_the_Draft_NPO_1_23_2018.pdf" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/living/npo.html" afterPath="$PROJECT_DIR$/living/npo.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +25,8 @@
       <file leaf-file-name="npo.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/living/npo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="50" column="68" lean-forward="true" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
+            <state relative-caret-position="205">
+              <caret line="49" column="79" lean-forward="false" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -186,7 +192,7 @@
       <updated>1513803710685</updated>
       <workItem from="1513803713081" duration="1361000" />
       <workItem from="1516969260045" duration="2127000" />
-      <workItem from="1517707021166" duration="6515000" />
+      <workItem from="1517707021166" duration="6830000" />
     </task>
     <task id="LOCAL-00001" summary="npo update one">
       <created>1513804706204</created>
@@ -213,7 +219,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10003000" />
+    <option name="totallyTimeSpent" value="10318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1260" height="682" extended-state="0" />
@@ -391,8 +397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/living/npo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="50" column="68" lean-forward="true" selection-start-line="50" selection-start-column="68" selection-end-line="50" selection-end-column="68" />
+        <state relative-caret-position="205">
+          <caret line="49" column="79" lean-forward="false" selection-start-line="49" selection-start-column="79" selection-end-line="49" selection-end-column="79" />
           <folding />
         </state>
       </provider>
