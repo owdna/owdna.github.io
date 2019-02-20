@@ -10,6 +10,8 @@ the changes, they will be merged and deployed.
 
 # Administration/Deployment
 
+(This section is out-of-date)
+
 ## Prerequisistes
 
 * ruby
