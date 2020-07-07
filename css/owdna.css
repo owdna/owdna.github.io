@@ -32,7 +32,8 @@ a { color: #dd9716; }
   background-image: url('/images/Old_West_Durham_sign.jpg');
   background-position: center;
   background-size: 100%;
-  padding: 250px 0px;
+  padding: 50px 0px;
+  margin-top:100px;
 }
 
 .hero-image { clear:both; max-height: 140px; margin-top: 30px; }
