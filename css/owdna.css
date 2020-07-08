@@ -8,7 +8,9 @@ p {
 
 .header-font { font-family: 'Acme'; }
 
-.nav-pills > .active > a { background-color: #444; }
+.nav-pills > .active > a { 
+background-color: #444;
+color:#ededd8;}
 
 .owdna-wrapper {
   min-height: 100%;
