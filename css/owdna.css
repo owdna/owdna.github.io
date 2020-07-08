@@ -39,9 +39,9 @@ a { color: #dd9716; }
 .hero-image { clear:both; max-height: 140px; margin-top: 30px; }
 .hero-header {
   font-family: 'Acme', cursive;
-  font-size: 5em;
+  font-size: 4em;
   line-height: 1em;
-  color: #ededd8;
+  color: #223b3a;
   text-shadow: 2px 2px 5px rgba(25,25,25,.5);
 }
 .hero-subheader {
