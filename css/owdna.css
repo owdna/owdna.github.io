@@ -9,7 +9,8 @@ p {
 .header-font { font-family: 'Acme'; }
 
 .nav-pills a { 
-color:#ededd8 !important;}
+color:#ededd8 !important;
+}
 
 .owdna-wrapper {
   min-height: 100%;
@@ -18,7 +19,7 @@ color:#ededd8 !important;}
 }
 
 .topnav {
-  background-color: #223b3ad4;
+  background-color: #262625;
   color: #fff;
 }
 .topnav .nav { display: inline-block; margin: 10px auto; margin-top: 15px; }
