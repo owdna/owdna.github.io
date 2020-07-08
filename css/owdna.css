@@ -2,6 +2,10 @@ body,html { background-color: #f6f6ef; height: 100%; padding: 0; margin: 0; }
 
 a { color: #ededd8; }
 
+p {
+	padding-left:50px;
+	padding-right:50px;
+
 .header-font { font-family: 'Acme'; }
 
 .nav-pills > .active > a { background-color: #444; }
