@@ -43,6 +43,8 @@ a { color: #dd9716; }
   line-height: 1em;
   color: #223b3a;
   text-shadow: 2px 2px 5px rgba(25,25,25,.5);
+  text-align: center;
+  padding: 20px;
 }
 .hero-subheader {
   font-size: 2em;
