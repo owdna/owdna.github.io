@@ -23,7 +23,7 @@ p {
   	
 	
 }
-.nav-pills a:active  { 
+.nav-pills a:focus  { 
   background-color: #85325a !important;
   	
 	
