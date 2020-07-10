@@ -23,6 +23,11 @@ p {
   	
 	
 }
+.nav-pills a:active  { 
+  background-color: #85325a !important;
+  	
+	
+}
 
 .owdna-wrapper {
   min-height: 100%;
