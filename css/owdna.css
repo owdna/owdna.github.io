@@ -8,17 +8,14 @@ p {
 
 .header-font { font-family: 'Acme'; }
 
-nav-pills a:link  { 
+nav-pills  { 
   color:#ededd8 !important;
+  background-color: #203938;
   	
 	
 }
 
-nav-pills a:hover  { 
-  background-color:#203938;
-  	
-	
-}
+
 .owdna-wrapper {
   min-height: 100%;
   margin: 0 auto -113px;
