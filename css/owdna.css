@@ -8,14 +8,14 @@ p {
 
 .header-font { font-family: 'Acme'; }
 
-a.nav-pills:link  { 
+nav-pills a:link  { 
   color:#ededd8 !important;
   	
 	
 }
 
-a.nav-pills:hover  { 
-  color:#203938 !important;
+nav-pills a:hover  { 
+  background-color:#203938 !important;
   	
 	
 }
