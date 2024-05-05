@@ -11,4 +11,6 @@ site is to make the history pages available.
 
 # Administration/Deployment
 
-This archival site is hosted directly out of this repository via Github pages. The gh-pages branch is live.
+This archival site is hosted directly out of this repository via Github pages.
+The history branch is live. The gh-pages branch was the active branch before
+oldwestdurham.org started pointed to webnode around the end of 2020.
